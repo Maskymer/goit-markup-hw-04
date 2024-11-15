@@ -280,6 +280,16 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.icon-item{
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  height: 112px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
 .header-items {
   color: #2e2f42;
   margin-bottom: 8px;
@@ -329,6 +339,12 @@ img {
   padding-bottom: 32px;
 }
 
+.card-team-posi{
+  width: 232px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .card-team-header {
   color: #2e2f42;
   text-align: center;
@@ -337,6 +353,13 @@ img {
 
 .card-team-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-social-links{
+  display: flex;
+  gap: 24px;
+  
 }
 
 /* #endregion */
@@ -416,6 +439,35 @@ img {
 .footer-accent-logo {
   color: #f4f4fd;
   background-color: #2e2f42;
+}
+
+.footer-left{
+margin-right: 120px;
+}
+
+.footer .container{
+  display: flex;
+}
+
+.footer-right{
+
+}
+
+.footer-header-social{
+color: #ffffff;
+margin-bottom: 16px;
+}
+
+.footer-social-links{
+  display: flex;
+  gap: 16px;
+}
+
+.social-circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
 }
 
 /* #endregion */
