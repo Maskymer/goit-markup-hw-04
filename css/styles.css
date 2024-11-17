@@ -379,6 +379,7 @@ top: calc(50%-32px);
 .team-social-links{
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .social-link{
